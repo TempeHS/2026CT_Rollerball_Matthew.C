@@ -4,7 +4,7 @@ using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 0; 
+    public float speed = 10f; 
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
 
@@ -59,6 +59,7 @@ public class PlayerController : MonoBehaviour
 
            SetCountText();
        }
+
    }
 
    private void OnCollisionEnter(Collision collision)
