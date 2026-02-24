@@ -60,15 +60,6 @@ public class PlayerController : MonoBehaviour
        }
    }
 
-    void SpeedBoostTrigger(Collider other) 
-    {
-        if (other.gameObject.CompareTag("SpeedBoost"))
-        {
-            other.gameObject.SetActive(false);
-            public float speed = 12.5;
-        }
-    }
-
    private void OnCollisionEnter(Collision collision)
    {
         if (collision.gameObject.CompareTag("Enemy"))
