@@ -14,7 +14,7 @@ public class MovingWall : MonoBehaviour
 
     private void Update()
     {
-        float t = Mathf.PingPong(Time.time * speed, 1f);
+        float t = Mathf.PingPong(Time.time * speed, 1.5f);
         transform.position = Vector3.Lerp(startPos, startPos + moveOffset, t);
     }
 }
