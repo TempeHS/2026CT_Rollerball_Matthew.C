@@ -63,17 +63,7 @@ public class PlayerController : MonoBehaviour
 
    private void OnCollisionEnter(Collision collision)
    {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Destroy(gameObject);
-            winTextObject.gameObject.SetActive(true);
-            winTextObject.GetComponent<TextMeshProUGUI>().text = "You Lose!";
-        }
-   }
-
-      private void OnCollisionEnter2(Collision collision)
-   {
-        if (collision.gameObject.CompareTag("EnemyWall"))
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("EnemyWall"))
         {
             Destroy(gameObject);
             winTextObject.gameObject.SetActive(true);
