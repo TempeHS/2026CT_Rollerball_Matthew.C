@@ -5149,7 +5149,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6775588498952513939, guid: b855e6b97cd2a3342817ea74bfd517f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.06
+      value: -18.37
       objectReference: {fileID: 0}
     - target: {fileID: 6775588498952513939, guid: b855e6b97cd2a3342817ea74bfd517f8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5157,7 +5157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6775588498952513939, guid: b855e6b97cd2a3342817ea74bfd517f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.47
+      value: -1.38
       objectReference: {fileID: 0}
     - target: {fileID: 6775588498952513939, guid: b855e6b97cd2a3342817ea74bfd517f8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10840,7 +10840,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 4
-  m_Acceleration: 8
+  m_Acceleration: 7
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
